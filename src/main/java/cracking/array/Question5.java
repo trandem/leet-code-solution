@@ -1,5 +1,6 @@
 package cracking.array;
 
+
 public class Question5 {
     public static boolean oneway(String st1, String st2) {
         int length1 = st1.length();
@@ -60,6 +61,4 @@ public class Question5 {
         System.out.println(oneway("pale", "bale"));
         System.out.println(oneway("pale", "bake"));
     }
-
-
 }
